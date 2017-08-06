@@ -7,5 +7,5 @@ server.use(jsonServer.defaults())
 const router = jsonServer.router('db.json')
 server.use(router)
 
-console.log('Listening at localhost:3000')
-server.listen(3000)
+console.log('Listening at localhost:4000')
+server.listen(4000)
